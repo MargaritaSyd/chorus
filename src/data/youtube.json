@@ -1,0 +1,624 @@
+{
+  "platform": "youtube",
+  "daily": [
+    {
+      "date": "2026-06-04",
+      "followers": 18388,
+      "reach": 7204,
+      "impressions": 10442
+    },
+    {
+      "date": "2026-06-05",
+      "followers": 18396,
+      "reach": 8200,
+      "impressions": 10264
+    },
+    {
+      "date": "2026-06-06",
+      "followers": 18405,
+      "reach": 5766,
+      "impressions": 7594
+    },
+    {
+      "date": "2026-06-07",
+      "followers": 18420,
+      "reach": 7248,
+      "impressions": 10007
+    },
+    {
+      "date": "2026-06-08",
+      "followers": 18439,
+      "reach": 9896,
+      "impressions": 12759
+    },
+    {
+      "date": "2026-06-09",
+      "followers": 18459,
+      "reach": 9535,
+      "impressions": 13964
+    },
+    {
+      "date": "2026-06-10",
+      "followers": 18480,
+      "reach": 9082,
+      "impressions": 12601
+    },
+    {
+      "date": "2026-06-11",
+      "followers": 18503,
+      "reach": 9764,
+      "impressions": 13097
+    },
+    {
+      "date": "2026-06-12",
+      "followers": 18531,
+      "reach": 8532,
+      "impressions": 10581
+    },
+    {
+      "date": "2026-06-13",
+      "followers": 18559,
+      "reach": 4679,
+      "impressions": 6423
+    },
+    {
+      "date": "2026-06-14",
+      "followers": 18584,
+      "reach": 6099,
+      "impressions": 7937
+    },
+    {
+      "date": "2026-06-15",
+      "followers": 18613,
+      "reach": 9342,
+      "impressions": 11544
+    },
+    {
+      "date": "2026-06-16",
+      "followers": 18643,
+      "reach": 8241,
+      "impressions": 11333
+    },
+    {
+      "date": "2026-06-17",
+      "followers": 18670,
+      "reach": 9745,
+      "impressions": 12182
+    },
+    {
+      "date": "2026-06-18",
+      "followers": 18703,
+      "reach": 7311,
+      "impressions": 10017
+    },
+    {
+      "date": "2026-06-19",
+      "followers": 18727,
+      "reach": 7565,
+      "impressions": 11119
+    },
+    {
+      "date": "2026-06-20",
+      "followers": 18678,
+      "reach": 7357,
+      "impressions": 9332
+    },
+    {
+      "date": "2026-06-21",
+      "followers": 18698,
+      "reach": 6242,
+      "impressions": 7640
+    },
+    {
+      "date": "2026-06-22",
+      "followers": 18715,
+      "reach": 9970,
+      "impressions": 15444
+    },
+    {
+      "date": "2026-06-23",
+      "followers": 18729,
+      "reach": 8137,
+      "impressions": 11619
+    },
+    {
+      "date": "2026-06-24",
+      "followers": 18736,
+      "reach": 7651,
+      "impressions": 9343
+    },
+    {
+      "date": "2026-06-25",
+      "followers": 18744,
+      "reach": 9494,
+      "impressions": 14706
+    },
+    {
+      "date": "2026-06-26",
+      "followers": 18750,
+      "reach": 7456,
+      "impressions": 11242
+    },
+    {
+      "date": "2026-06-27",
+      "followers": 18754,
+      "reach": 6029,
+      "impressions": 9283
+    },
+    {
+      "date": "2026-06-28",
+      "followers": 18751,
+      "reach": 7225,
+      "impressions": 10330
+    },
+    {
+      "date": "2026-06-29",
+      "followers": 18751,
+      "reach": 8246,
+      "impressions": 11037
+    },
+    {
+      "date": "2026-06-30",
+      "followers": 18833,
+      "reach": 10359,
+      "impressions": 15093
+    },
+    {
+      "date": "2026-07-01",
+      "followers": 18802,
+      "reach": 7487,
+      "impressions": 9632
+    },
+    {
+      "date": "2026-07-02",
+      "followers": 18803,
+      "reach": 9706,
+      "impressions": 14035
+    },
+    {
+      "date": "2026-07-03",
+      "followers": 18803,
+      "reach": 7239,
+      "impressions": 8811
+    },
+    {
+      "date": "2026-07-04",
+      "followers": 18807,
+      "reach": 4869,
+      "impressions": 5926
+    },
+    {
+      "date": "2026-07-05",
+      "followers": 18811,
+      "reach": 6639,
+      "impressions": 8227
+    },
+    {
+      "date": "2026-07-06",
+      "followers": 18819,
+      "reach": 9942,
+      "impressions": 12009
+    },
+    {
+      "date": "2026-07-07",
+      "followers": 18828,
+      "reach": 9025,
+      "impressions": 13771
+    },
+    {
+      "date": "2026-07-08",
+      "followers": 18833,
+      "reach": 9815,
+      "impressions": 13315
+    },
+    {
+      "date": "2026-07-09",
+      "followers": 18848,
+      "reach": 7304,
+      "impressions": 10575
+    },
+    {
+      "date": "2026-07-10",
+      "followers": 18868,
+      "reach": 8067,
+      "impressions": 11220
+    },
+    {
+      "date": "2026-07-11",
+      "followers": 18890,
+      "reach": 7272,
+      "impressions": 9150
+    },
+    {
+      "date": "2026-07-12",
+      "followers": 18912,
+      "reach": 5064,
+      "impressions": 6884
+    },
+    {
+      "date": "2026-07-13",
+      "followers": 18938,
+      "reach": 10651,
+      "impressions": 14970
+    },
+    {
+      "date": "2026-07-14",
+      "followers": 18964,
+      "reach": 7014,
+      "impressions": 8895
+    },
+    {
+      "date": "2026-07-15",
+      "followers": 18993,
+      "reach": 9810,
+      "impressions": 13669
+    },
+    {
+      "date": "2026-07-16",
+      "followers": 19021,
+      "reach": 6611,
+      "impressions": 8289
+    },
+    {
+      "date": "2026-07-17",
+      "followers": 19050,
+      "reach": 10039,
+      "impressions": 13245
+    },
+    {
+      "date": "2026-07-18",
+      "followers": 19087,
+      "reach": 7374,
+      "impressions": 10235
+    },
+    {
+      "date": "2026-07-19",
+      "followers": 19114,
+      "reach": 7270,
+      "impressions": 10914
+    },
+    {
+      "date": "2026-07-20",
+      "followers": 19131,
+      "reach": 8319,
+      "impressions": 12784
+    },
+    {
+      "date": "2026-07-21",
+      "followers": 19154,
+      "reach": 7820,
+      "impressions": 10176
+    },
+    {
+      "date": "2026-07-22",
+      "followers": 19174,
+      "reach": 6756,
+      "impressions": 9696
+    },
+    {
+      "date": "2026-07-23",
+      "followers": 19191,
+      "reach": 10224,
+      "impressions": 13383
+    },
+    {
+      "date": "2026-07-24",
+      "followers": 19210,
+      "reach": 6914,
+      "impressions": 9045
+    },
+    {
+      "date": "2026-07-25",
+      "followers": 19221,
+      "reach": 5362,
+      "impressions": 6583
+    },
+    {
+      "date": "2026-07-26",
+      "followers": 19229,
+      "reach": 4688,
+      "impressions": 6448
+    },
+    {
+      "date": "2026-07-27",
+      "followers": 19235,
+      "reach": 10031,
+      "impressions": 13787
+    },
+    {
+      "date": "2026-07-28",
+      "followers": 19243,
+      "reach": 7831,
+      "impressions": 10568
+    },
+    {
+      "date": "2026-07-29",
+      "followers": 19244,
+      "reach": 9536,
+      "impressions": 14155
+    },
+    {
+      "date": "2026-07-30",
+      "followers": 19159,
+      "reach": 6714,
+      "impressions": 8080
+    },
+    {
+      "date": "2026-07-31",
+      "followers": 19159,
+      "reach": 6627,
+      "impressions": 10051
+    },
+    {
+      "date": "2026-08-01",
+      "followers": 19206,
+      "reach": 6522,
+      "impressions": 8824
+    },
+    {
+      "date": "2026-08-02",
+      "followers": 19206,
+      "reach": 5637,
+      "impressions": 8115
+    },
+    {
+      "date": "2026-08-03",
+      "followers": 19206,
+      "reach": 7468,
+      "impressions": 9445
+    },
+    {
+      "date": "2026-08-04",
+      "followers": 19203,
+      "reach": 8205,
+      "impressions": 10057
+    },
+    {
+      "date": "2026-08-05",
+      "followers": 19207,
+      "reach": 9410,
+      "impressions": 13738
+    },
+    {
+      "date": "2026-08-06",
+      "followers": 19213,
+      "reach": 8094,
+      "impressions": 11860
+    },
+    {
+      "date": "2026-08-07",
+      "followers": 19222,
+      "reach": 6880,
+      "impressions": 10204
+    },
+    {
+      "date": "2026-08-08",
+      "followers": 19229,
+      "reach": 5144,
+      "impressions": 6849
+    },
+    {
+      "date": "2026-08-09",
+      "followers": 19244,
+      "reach": 5379,
+      "impressions": 6575
+    },
+    {
+      "date": "2026-08-10",
+      "followers": 19191,
+      "reach": 8600,
+      "impressions": 12155
+    },
+    {
+      "date": "2026-08-11",
+      "followers": 19211,
+      "reach": 9027,
+      "impressions": 11797
+    },
+    {
+      "date": "2026-08-12",
+      "followers": 19233,
+      "reach": 6969,
+      "impressions": 9554
+    },
+    {
+      "date": "2026-08-13",
+      "followers": 19413,
+      "reach": 7593,
+      "impressions": 10115
+    },
+    {
+      "date": "2026-08-14",
+      "followers": 19439,
+      "reach": 6462,
+      "impressions": 8293
+    },
+    {
+      "date": "2026-08-15",
+      "followers": 19467,
+      "reach": 4757,
+      "impressions": 7231
+    },
+    {
+      "date": "2026-08-16",
+      "followers": 19496,
+      "reach": 6872,
+      "impressions": 10448
+    },
+    {
+      "date": "2026-08-17",
+      "followers": 19525,
+      "reach": 9798,
+      "impressions": 12444
+    },
+    {
+      "date": "2026-08-18",
+      "followers": 19554,
+      "reach": 10474,
+      "impressions": 15978
+    },
+    {
+      "date": "2026-08-19",
+      "followers": 19581,
+      "reach": 7679,
+      "impressions": 10753
+    },
+    {
+      "date": "2026-08-20",
+      "followers": 19597,
+      "reach": 9332,
+      "impressions": 11989
+    },
+    {
+      "date": "2026-08-21",
+      "followers": 19623,
+      "reach": 7368,
+      "impressions": 8901
+    },
+    {
+      "date": "2026-08-22",
+      "followers": 19643,
+      "reach": 6756,
+      "impressions": 9254
+    },
+    {
+      "date": "2026-08-23",
+      "followers": 19663,
+      "reach": 6172,
+      "impressions": 8773
+    },
+    {
+      "date": "2026-08-24",
+      "followers": 19682,
+      "reach": 6948,
+      "impressions": 10615
+    },
+    {
+      "date": "2026-08-25",
+      "followers": 19695,
+      "reach": 10035,
+      "impressions": 14327
+    },
+    {
+      "date": "2026-08-26",
+      "followers": 19704,
+      "reach": 10111,
+      "impressions": 12822
+    },
+    {
+      "date": "2026-08-27",
+      "followers": 19711,
+      "reach": 9907,
+      "impressions": 14944
+    },
+    {
+      "date": "2026-08-28",
+      "followers": 19719,
+      "reach": 7884,
+      "impressions": 10779
+    },
+    {
+      "date": "2026-08-29",
+      "followers": 19721,
+      "reach": 5468,
+      "impressions": 8265
+    },
+    {
+      "date": "2026-08-30",
+      "followers": 19720,
+      "reach": 4702,
+      "impressions": 6034
+    },
+    {
+      "date": "2026-08-31",
+      "followers": 19719,
+      "reach": 9374,
+      "impressions": 12039
+    },
+    {
+      "date": "2026-09-01",
+      "followers": 19668,
+      "reach": 10156,
+      "impressions": 13537
+    }
+  ],
+  "posts": [
+    {
+      "id": "yt-01",
+      "platform": "youtube",
+      "publishedAt": "2026-06-09T14:30:00.000Z",
+      "title": "Walkthrough: a social dashboard you can actually ship",
+      "url": "https://example.com/youtube/yt-01",
+      "likes": 420,
+      "comments": 37,
+      "shares": 48,
+      "impressions": 18200
+    },
+    {
+      "id": "yt-02",
+      "platform": "youtube",
+      "publishedAt": "2026-06-23T14:30:00.000Z",
+      "title": "Reading the 30-day growth line",
+      "url": "https://example.com/youtube/yt-02",
+      "likes": 365,
+      "comments": 29,
+      "shares": 31,
+      "impressions": 15400
+    },
+    {
+      "id": "yt-03",
+      "platform": "youtube",
+      "publishedAt": "2026-07-07T14:30:00.000Z",
+      "title": "Donuts, bars, and when not to use them",
+      "url": "https://example.com/youtube/yt-03",
+      "likes": 298,
+      "comments": 41,
+      "shares": 22,
+      "impressions": 13900
+    },
+    {
+      "id": "yt-04",
+      "platform": "youtube",
+      "publishedAt": "2026-07-21T14:30:00.000Z",
+      "title": "From JSON mock to a live adapter",
+      "url": "https://example.com/youtube/yt-04",
+      "likes": 512,
+      "comments": 46,
+      "shares": 57,
+      "impressions": 22100
+    },
+    {
+      "id": "yt-05",
+      "platform": "youtube",
+      "publishedAt": "2026-08-04T14:30:00.000Z",
+      "title": "Designing KPIs that survive a 7-day zoom",
+      "url": "https://example.com/youtube/yt-05",
+      "likes": 387,
+      "comments": 33,
+      "shares": 29,
+      "impressions": 16800
+    },
+    {
+      "id": "yt-06",
+      "platform": "youtube",
+      "publishedAt": "2026-08-16T14:30:00.000Z",
+      "title": "Sidebar navigation for a one-person analytics app",
+      "url": "https://example.com/youtube/yt-06",
+      "likes": 341,
+      "comments": 22,
+      "shares": 18,
+      "impressions": 14700
+    },
+    {
+      "id": "yt-07",
+      "platform": "youtube",
+      "publishedAt": "2026-08-27T14:30:00.000Z",
+      "title": "Chorus overview: followers, reach, mix",
+      "url": "https://example.com/youtube/yt-07",
+      "likes": 478,
+      "comments": 39,
+      "shares": 44,
+      "impressions": 19600
+    }
+  ]
+}
