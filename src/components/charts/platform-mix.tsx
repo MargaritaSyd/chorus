@@ -44,10 +44,7 @@ export function PlatformMix({ data }: { data: MixSlice[] }) {
                 strokeDashoffset={-slice.offset}
                 strokeLinecap="butt"
               >
-                <title>
-                  {PLATFORM_META[slice.platform].label}:{" "}
-                  {formatCompact(slice.value)}
-                </title>
+                <title>{`${PLATFORM_META[slice.platform].label}: ${formatCompact(slice.value)}`}</title>
               </circle>
             ))}
           </g>
