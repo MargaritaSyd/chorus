@@ -21,8 +21,8 @@ export function OverviewView({ snapshot }: { snapshot: DashboardSnapshot }) {
         />
         <KpiCard label="Posts" metric={snapshot.kpis.posts} format="integer" />
       </section>
-      <section className="grid gap-4 xl:grid-cols-5">
-        <Card className="xl:col-span-3">
+      <section className="grid min-w-0 gap-4 xl:grid-cols-5">
+        <Card className="min-w-0 xl:col-span-3">
           <CardHeader>
             <CardTitle>Follower growth</CardTitle>
             <CardDescription>Daily followers by platform</CardDescription>
@@ -31,7 +31,7 @@ export function OverviewView({ snapshot }: { snapshot: DashboardSnapshot }) {
             <GrowthLine data={snapshot.growth} platform={snapshot.platform} />
           </CardContent>
         </Card>
-        <Card className="xl:col-span-2">
+        <Card className="min-w-0 xl:col-span-2">
           <CardHeader>
             <CardTitle>Reach mix</CardTitle>
             <CardDescription>Share of reach in this window</CardDescription>

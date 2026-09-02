@@ -1,56 +1,65 @@
 "use client";
 
-import { Cell, Pie, PieChart, ResponsiveContainer, Tooltip } from "recharts";
-import { PLATFORM_META, type Platform } from "@/lib/analytics";
+import { PLATFORM_META } from "@/lib/analytics";
 import type { MixSlice } from "@/lib/analytics/types";
 import { formatCompact } from "@/lib/format";
 
+const SIZE = 220;
+const CENTER = SIZE / 2;
+const RADIUS = 58;
+const THICKNESS = 20;
+
 export function PlatformMix({ data }: { data: MixSlice[] }) {
   const total = data.reduce((sum, slice) => sum + slice.value, 0);
+  const circumference = 2 * Math.PI * RADIUS;
+  let offset = 0;
+  const rings = data.map((slice) => {
+    const length = total === 0 ? 0 : (slice.value / total) * circumference;
+    const ring = { ...slice, length, offset };
+    offset += length;
+    return ring;
+  });
 
   return (
-    <div className="flex h-72 flex-col justify-center gap-4 sm:flex-row sm:items-center">
-      <div className="h-56 w-full sm:h-64 sm:w-64">
-        <ResponsiveContainer width="100%" height="100%">
-          <PieChart>
-            <Pie
-              data={data}
-              dataKey="value"
-              nameKey="platform"
-              innerRadius={62}
-              outerRadius={88}
-              paddingAngle={2}
-              stroke="var(--card)"
-            >
-              {data.map((slice) => (
-                <Cell
-                  key={slice.platform}
-                  fill={PLATFORM_META[slice.platform].color}
-                />
-              ))}
-            </Pie>
-            <Tooltip
-              contentStyle={{
-                background: "var(--popover)",
-                border: "1px solid var(--border)",
-                borderRadius: 8,
-                fontSize: 12,
-              }}
-              formatter={(value, name) => [
-                formatCompact(Number(value)),
-                PLATFORM_META[name as Platform].label,
-              ]}
-            />
-          </PieChart>
-        </ResponsiveContainer>
+    <div className="flex w-full flex-col items-center gap-4">
+      <div className="aspect-square w-full max-w-[13.75rem]">
+        <svg
+          viewBox={`0 0 ${SIZE} ${SIZE}`}
+          className="block size-full overflow-visible"
+          preserveAspectRatio="xMidYMid meet"
+          role="img"
+          aria-label="Reach mix by platform"
+        >
+          <g transform={`rotate(-90 ${CENTER} ${CENTER})`}>
+            {rings.map((slice) => (
+              <circle
+                key={slice.platform}
+                cx={CENTER}
+                cy={CENTER}
+                r={RADIUS}
+                fill="none"
+                stroke={PLATFORM_META[slice.platform].color}
+                strokeWidth={THICKNESS}
+                strokeDasharray={`${slice.length} ${circumference - slice.length}`}
+                strokeDashoffset={-slice.offset}
+                strokeLinecap="butt"
+              >
+                <title>
+                  {PLATFORM_META[slice.platform].label}:{" "}
+                  {formatCompact(slice.value)}
+                </title>
+              </circle>
+            ))}
+          </g>
+        </svg>
       </div>
-      <ul className="flex flex-col gap-2 text-sm">
+      <ul className="flex w-full max-w-xs flex-col gap-2 text-sm">
         {data.map((slice) => {
           const share = total === 0 ? 0 : slice.value / total;
           return (
             <li key={slice.platform} className="flex items-center gap-2">
               <span
-                className="size-2.5 rounded-full"
+                className="size-2.5 shrink-0 rounded-full"
                 style={{ background: PLATFORM_META[slice.platform].color }}
               />
               <span className="w-24 text-muted-foreground">
@@ -59,7 +68,7 @@ export function PlatformMix({ data }: { data: MixSlice[] }) {
               <span className="font-mono tabular-nums">
                 {formatCompact(slice.value)}
               </span>
-              <span className="font-mono text-muted-foreground tabular-nums">
+              <span className="ml-auto font-mono text-muted-foreground tabular-nums">
                 {(share * 100).toFixed(0)}%
               </span>
             </li>
