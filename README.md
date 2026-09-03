@@ -37,6 +37,23 @@ npm run build
 npm start
 ```
 
+## Testing
+
+Unit and component tests use [Vitest](https://vitest.dev/) and React Testing Library. Async App Router pages are covered with [Playwright](https://playwright.dev/).
+
+```bash
+npm test
+```
+
+Watch mode. Use `npm run test:run` for a single pass.
+
+```bash
+npx playwright install chromium
+npm run test:e2e
+```
+
+Playwright starts `npm run dev` unless a server is already running on port 3000.
+
 ## Deploy
 
 Vercel, no environment variables required for mock data.
